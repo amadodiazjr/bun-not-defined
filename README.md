@@ -3,13 +3,12 @@ The following command runs fine with no problems.
 bun run dev
 ```
 
-The following unit test fails due to a failed import
+The following command fails due to a failed import
 ```sh
 bun run test
 ```
 
 results in the following error:
-To run:
 ```sh
  FAIL  src/index.spec.ts
   ● Test suite failed to run
